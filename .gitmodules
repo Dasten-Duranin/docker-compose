@@ -1,0 +1,9 @@
+[submodule "apirest0"]
+	path = apirest0
+	url = git@github.com:Dasten-Duranin/apirest0.git
+[submodule "apirest1"]
+	path = apirest1
+	url = git@github.com:Dasten-Duranin/apirest1.git
+[submodule "docker-dbmongo"]
+	path = docker-dbmongo
+	url = git@github.com:Dasten-Duranin/docker-dbmongo.git
