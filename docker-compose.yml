@@ -1,17 +1,17 @@
 version: '3'
 services:
   mongo:
-    build: ./dbMongo/
+    build: ./docker-dbmongo/
     ports:
     - "27018:27017"
   apirest0:
-    build: ./apiRest0/
+    build: ./apirest0/
     links:
     - mongo
     ports:
     - "8001:8001"
   apirest1:
-    build: ./apiRest1/
+    build: ./apirest1/
     links:
     - apirest0
     ports:
